@@ -1,13 +1,3 @@
-$(document).ready(function() {
-    $("#regForm").submit(function() {
-        let phone = $("input[name='phone']").val();
-
-        // Simple validation
-        if (phone.length < 10) {
-            alert("Phone number must be at least 10 digits.");
-            return false;
-        }
-
-        return true;
-    });
+$(document).ready(function () {
+    console.log("Registration form loaded.");
 });
